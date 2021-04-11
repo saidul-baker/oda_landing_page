@@ -1,0 +1,30 @@
+{
+  "name": "oda_landing",
+  "version": "1.0.0",
+  "description": "ODA Landing page :\r An app for tourism , hotel-booking and much more",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidul-baker/oda_landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saidul-baker/oda_landing/issues"
+  },
+  "homepage": "https://github.com/saidul-baker/oda_landing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mailgun": "^0.5.0",
+    "mongoose": "^5.11.15",
+    "nodemailer": "^6.5.0",
+    "nodemailer-mailgun-transport": "^2.0.2",
+    "validator": "^13.5.2"
+  }
+}
